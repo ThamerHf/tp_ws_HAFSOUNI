@@ -96,7 +96,7 @@ SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 :
 < Date: Tue, 04 Oct 2022 14:33:51 GMT : date dela reponse
 
 ## Faire un appel curl en envoyant du texte brut : copier la commande exécutée et indiquer la requête et la réponse
-
+ curl --header "x-student: thamer" -H "Content-Type: text/plain" -X POST -d "salut les amis" https://webhook.site/6f594809-a4b4-483e-841b-0c3b0a00edfe -v
 
 ## Faire un appel curl en envoyant du JSON (avec les bons headers) : copier la commande exécutée et indiquer la requête et la réponse
 
